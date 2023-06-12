@@ -3,7 +3,6 @@ window.count = 4992;
 
 article.oninput = () => {
 	const count = window.count;
-	console.debug(count)
 	const isFilled = article.classList.contains('filled');
 	const isOverfilled = article.classList.contains('overfilled');
 
