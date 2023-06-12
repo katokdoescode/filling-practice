@@ -1,0 +1,25 @@
+article {
+	font-size: 24px;
+	background-color: lightsalmon;
+	color: black;
+	width: 100%;
+	height: auto;
+	overflow: visible;
+	word-wrap: break-word;
+	word-break: break-all;
+	font-family: monospace;
+}
+
+article.filled {
+	background-color: black;
+	color: thistle;
+}
+
+article.overfilled {
+	background-color: tomato;
+	color: thistle;
+}
+
+#saved {
+	background-color: mediumspringgreen;
+}
